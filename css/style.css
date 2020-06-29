@@ -6,10 +6,18 @@
 /* Proprietà foto */
 .picture {
   position: relative;
-  background-image: url(../img/amsterdam.jpg);
   background-size: cover;
   height: calc(100vh - 20px);
   margin: 10px;
+  }
+  #amsterdam {
+  background-image: url(../img/amsterdam.jpg);
+  }
+  #budapest {
+  background-image: url(../img/budapest.jpg);
+  }
+  #lisbona {
+  background-image: url(../img/lisbona.jpg);
   }
 /* Fine proprietà sfondo */
 /* Proprietà layover */
@@ -20,6 +28,7 @@
   background-color: rgba(0,0,0,0.3);
 }
 /* Fine proprietà layover */
+/* nome città */
 .cityname {
   position: absolute;
   top: 50%;
@@ -31,3 +40,4 @@
   font-size: 40px;
   text-shadow: 5px 5px black;
 }
+/* fine nome città */
