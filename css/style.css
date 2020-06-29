@@ -3,3 +3,15 @@
   margin: 0;
   padding: 0;
 }
+/* Proprietà foto */
+.picture {
+  background-image: url(../img/amsterdam.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+  margin: 10px;
+  }
+/* Fine proprietà sfondo */
+/* Proprietà layover */
+
+/* Fine proprietà layover */
