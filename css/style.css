@@ -9,6 +9,7 @@
   background-size: cover;
   height: calc(100vh - 20px);
   margin: 10px;
+  box-shadow: 5px 5px 5px black;
   }
   #amsterdam {
   background-image: url(../img/amsterdam.jpg);
@@ -33,7 +34,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% -50%);
+  transform: translate(-50%, -50%);
   color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
