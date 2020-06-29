@@ -8,7 +8,7 @@
   position: relative;
   background-image: url(../img/amsterdam.jpg);
   background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 20px);
   margin: 10px;
   }
 /* Fine proprietà sfondo */
@@ -26,5 +26,8 @@
   left: 50%;
   transform: translate(-50% -50%);
   color: white;
-  
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 5px 5px black;
 }
