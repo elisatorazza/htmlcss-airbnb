@@ -10,9 +10,16 @@
   width: 100% - 20px;
   background-size: cover;
   margin: 10px;
+  box-shadow: 5px 5px black;
 }
 #amsterdam {
   background-image: url(../../img/amsterdam.jpg);
+}
+#budapest {
+  background-image: url(../../img/budapest.jpg);
+}
+#lisbona {
+  background-image: url(../../img/lisbona.jpg);
 }
 /* /immagini di sfondo */
 /* layover */
@@ -23,6 +30,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 /* /layover */
+/* nomi città */
 p{
   color: white;
   position: absolute;
@@ -33,3 +41,4 @@ p{
   font-size: 50px;
   text-shadow: 4px 4px black;
 }
+/* /nomi città */
